@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300&display=swap');
+
 * {
   margin: 0%;
   padding: 0%;
@@ -43,7 +45,7 @@ body {
   background-color: #0b48ed;
   border: 1px solid #fff;
   color: #fff;
-  font-family: a;
+  font-family: "Jost", sans-serif;
   font-size: 15px;
 }
 .bottom-page1 {
@@ -54,7 +56,7 @@ body {
   left: 10%;
 }
 .bottom-page1 > h1 {
-  font-family: a;
+  font-family: "Jost", sans-serif;
   font-size: 5vw;
   font-weight: 100;
   line-height: 1;
@@ -70,7 +72,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-family: a;
+  font-family: "Jost", sans-serif;
 }
 .bottom-page1-inner > button {
   padding: 10px 20px;
@@ -79,7 +81,7 @@ body {
   background-color: #fff;
   color: #0b48ed;
   font-size: 16px;
-  font-family: b;
+  font-family: "Jost", sans-serif;
 }
 .bottom-page1-inner > h4 {
   font-size: 1.3vw;
@@ -89,7 +91,7 @@ body {
 #page2 {
   display: flex;
   align-items: start;
-  font-family: a;
+  font-family: "Jost", sans-serif;
   justify-content: center;
   flex-direction: column;
   height: 100vh;
@@ -130,7 +132,7 @@ body {
   height: 100vh;
   width: 100vw;
   background-color: #1137ca;
-  font-family: a;
+  font-family: "Jost", sans-serif;
 }
 #page4 > h3 {
   margin-left: 15vw;
@@ -164,7 +166,7 @@ body {
   width: 100vw;
   background-color: #0a3cce;
   flex-direction: column;
-  font-family: a;
+  font-family: "Jost", sans-serif;
 }
 #page6 > h3 {
   margin-left: 15vw;
@@ -229,7 +231,7 @@ body {
   left: 50%;
   transform: translateX(-50%);
   text-align: center;
-  font-family: a;
+  font-family: "Jost", sans-serif;
 }
 .page8-bottom > h1 {
   color: #fff;
@@ -255,7 +257,7 @@ body {
   height: 100%;
   width: 40%;
   position: relative;
-  font-family: a;
+  font-family: "Jost", sans-serif;
 }
 .left9 > h1 {
   position: absolute;
@@ -301,7 +303,7 @@ body {
   flex-direction: column;
   height: 33.3%;
   width: 100%;
-  font-family: a;
+  font-family: "Jost", sans-serif;
   color: #fff;
 }
 .right10-inner > h1 {
@@ -318,7 +320,7 @@ body {
   height: 110vh;
   width: 100vw;
   background-color: #fff;
-  font-family: a;
+  font-family: "Jost", sans-serif;
 }
 #page11 > h1 {
   position: absolute;
@@ -375,7 +377,7 @@ body {
   top: 20%;
   right: 10%;
   color: #fff;
-  font-family: a;
+  font-family: "Jost", sans-serif;
 }
 .page12-inner > h1 {
   font-size: 5vw;
@@ -391,7 +393,7 @@ body {
   width: 100vw;
   background-color: #000;
   color: #fff;
-  font-family: a;
+  font-family: "Jost", sans-serif;
   padding: 7vw 10vw;
 }
 #page13 > h1 {
@@ -420,7 +422,7 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 0vw 5vw;
-  font-family: a;
+  font-family: "Jost", sans-serif;
   height: 33.3%;
   width: 100%;
   color: #fff;
