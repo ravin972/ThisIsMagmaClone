@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@300&display=swap");
 
 * {
   margin: 0%;
@@ -39,6 +39,7 @@ body {
   margin-top: -1.7vw;
   width: 9%;
 }
+
 #right-nav > button {
   padding: 10px 20px;
   border-radius: 50px;
@@ -47,6 +48,23 @@ body {
   color: #fff;
   font-family: "Jost", sans-serif;
   font-size: 15px;
+}
+
+@media screen and (max-width: 480px) {
+  #right-nav > #demo {
+    display: none;
+  }
+  #page1 > nav {
+    margin-left: 15px;
+  }
+  #right-nav > button {
+    font-size: 3.5vw;
+  }
+  #page1 > nav > img {
+    margin-left: -7.2rem;
+    margin-top: -12vw;
+    width: 9rem;
+  }
 }
 .bottom-page1 {
   position: absolute;
@@ -88,6 +106,50 @@ body {
   font-weight: 100;
   color: #fff;
 }
+
+@media screen and (max-width: 480px) {
+  .bottom-page1 {
+    display: flex;
+    align-items: center;
+    bottom: 35%;
+    height: 65vh;
+    width: 85vw;
+    left: 2%;
+  }
+  .bottom-page1 > h1 {
+    font-family: "Jost", sans-serif;
+    font-size: 17vw;
+    font-weight: 100;
+    line-height: 1;
+    color: #fff;
+  }
+  .bottom-page1-inner {
+    display: grid;
+    place-items: center;
+    bottom: 10%;
+    height: 10%;
+    width: 150%;
+  }
+  .bottom-page1-inner > button {
+    padding: 12px 22px;
+    border: none;
+    border-radius: 50px;
+    background-color: #fff;
+    color: #0b48ed;
+    font-size: 16px;
+    font-family: "Jost", sans-serif;
+    margin-right: 17rem;
+    margin-top: 2.5rem;
+  }
+  .bottom-page1-inner > h4 {
+    font-size: 5vw;
+    font-weight: 100;
+    color: #dadada;
+    margin-right: 5rem;
+    margin-bottom: 5px;
+  }
+}
+/* page2 */
 #page2 {
   display: flex;
   align-items: start;
@@ -111,6 +173,21 @@ body {
   width: 90%;
   font-size: 4vw;
   color: #dadada69;
+}
+
+@media screen and (max-width: 480px) {
+  #page2 > h2 {
+    margin-bottom: 3vw;
+    font-weight: 100;
+    font-size: 0.7rem;
+  }
+  #page2 > h1 {
+    font-weight: 100;
+    line-height: 1.5;
+    width: 100%;
+    font-size: 10vw;
+    color: #dadada69;
+  }
 }
 
 #page3 {
@@ -147,6 +224,24 @@ body {
   font-weight: 100;
   color: #ffffff81;
 }
+
+@media screen and (max-width: 480px) {
+  #page4 > h3 {
+    margin-left: 15vw;
+    margin-bottom: 2vw;
+    font-weight: 100;
+    color: #fff;
+    font-size: 0.7rem;
+  }
+  #page4 > h1 {
+    margin-left: 15vw;
+    width: 80%;
+    font-size: 8.7vw;
+    font-weight: 100;
+    color: #ffffff81;
+  }
+}
+
 #page5 {
   position: relative;
   height: 100vh;
@@ -181,6 +276,25 @@ body {
   font-weight: 100;
   color: #ffffff53;
 }
+
+@media screen and (max-width: 480px) {
+  #page6 > h3 {
+    margin-left: 15vw;
+    font-weight: 100;
+    font-size: 0.7rem;
+    color: #fff;
+    margin-bottom: 2vw;
+  }
+  #page6 > h1 {
+    margin-left: 15vw;
+    font-size: 3vw;
+    width: 80%;
+    font-size: 2.2rem;
+    font-weight: 100;
+    color: #ffffff53;
+  }
+}
+
 #page7 {
   position: relative;
   height: 100vh;
@@ -246,6 +360,18 @@ body {
   background-color: #fff;
   color: #0a3cce;
 }
+
+@media screen and (max-width: 480px) {
+  .page8-bottom {
+    bottom: 1%;
+  }
+  .page8-bottom > h1 {
+    margin-bottom: 2vh;
+    font-size: 5rem;
+    font-weight: 100;
+  }
+}
+
 #page9 {
   display: flex;
   position: relative;
