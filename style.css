@@ -411,6 +411,41 @@ body {
   background-size: cover;
   left: 5%;
 }
+@media screen and (max-width: 480px) {
+  .left9 {
+    height: 60vh;
+    width: 100vw;
+    position: relative;
+    font-family: "Jost", sans-serif;
+  }
+  .left9 > h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%);
+    font-size: 18vw;
+    font-weight: 100;
+    color: #fff;
+    line-height: 1;
+    white-space: nowrap;
+  }
+  .right9 {
+    height: 40%;
+    width: 100rem;
+    position: relative;
+  }
+  .right9-center {
+    height: 30vh;
+    width: 90vw;
+    border-radius: 10px;
+    position: absolute;
+    top: 150%;
+    transform: translateY(-50%);
+    background-image: url(https://thisismagma.com/wp-content/uploads/2023/04/magma.wp2.cubdev.com-home-1.jpeg);
+    background-size: cover;
+    left: -16%;
+  }
+}
 #page10 {
   position: relative;
   height: 100vh;
@@ -439,6 +474,40 @@ body {
   margin-top: 2vw;
   font-size: 1.3vw;
   width: 80%;
+}
+@media screen and (max-width: 480px) {
+  #page10 {
+    position: relative;
+    height: auto; /* Change height to auto to allow content to dictate the height */
+    background-color: #0a3cce;
+  }
+  .right10 {
+    width: 100%;
+    padding: 10%; /* Add padding for spacing */
+    white-space: wrap; /* Use 'normal' for white-space */
+  }
+  .right10-inner {
+    display: flex;
+    align-items: flex-start; /* Change to 'flex-start' */
+    flex-direction: column;
+    width: 100%;
+    font-family: "Jost", sans-serif;
+    color: #fff;
+    white-space: wrap; /* Use 'normal' for white-space */
+  }
+  .right10-inner > h1 {
+    margin-top: 20vw; /* Adjust margin for spacing */
+    font-size: 8vw; /* Adjust font size */
+    margin-left: -55%;
+    word-wrap: break-word;
+  }
+  .right10-inner > p {
+    margin-top: 2vw; /* Adjust margin for spacing */
+    margin-left: -55%;
+    font-size: 7vw; /* Adjust font size */
+    width: 100%; /* Use 100% width */
+    white-space: wrap; /* Use 'normal' for white-space */
+  }
 }
 
 #page11 {
@@ -491,6 +560,44 @@ body {
 .right11 > h1 {
   font-size: 2vw;
 }
+@media screen and (max-width: 480px) {
+  #page11 {
+    height: auto; /* Change height to auto to adapt to content */
+    padding-top: 50%;
+  }
+  #page11 > h1 {
+    font-size: 20vw; /* Adjust font size for smaller screens */
+    text-align: center; /* Center the text horizontally */
+    left: 0; /* Reset left position */
+    top: 10px; /* Adjust top position */
+    color: #ffffffe7;
+  }
+  .page11-inner {
+    flex-direction: column; /* Stack the inner content vertically */
+    align-items: center; /* Center the inner content horizontally */
+    top: 0; /* Reset top position */
+  }
+  .left11 {
+    width: 100%; /* Make the left section full-width */
+    left: 0; /* Reset left position */
+  }
+  .left11 > img {
+    height: auto; /* Allow the image's height to adjust */
+  }
+  .right11 {
+    position: static; /* Remove absolute positioning */
+    width: 100%; /* Make the right section full-width */
+    text-align: center; /* Center the text horizontally */
+    padding-top: 30px; /* Adjust top padding */
+  }
+  .right11 > h4 {
+    font-size: 4vw; /* Adjust font size for smaller screens */
+  }
+  .right11 > h1 {
+    font-size: 10vw; /* Adjust font size for smaller screens */
+    color: #ffffff8f;
+  }
+}
 
 #page12 {
   position: relative;
@@ -511,6 +618,24 @@ body {
 }
 .page12-inner > p {
   font-size: 1.3vw;
+}
+@media screen and (max-width: 480px) {
+  #page12 {
+    height: 100vh; /* Change height to auto to adapt to content */
+    width: 100vw;
+  }
+  .page12-inner {
+    top: 10%; /* Reset top position */
+    right: 2%; /* Reset right position */
+    text-align: center; /* Center the text horizontally */
+  }
+  .page12-inner > h1 {
+    font-size: 17vw; /* Adjust font size for smaller screens */
+    color: #ffffffe8;
+  }
+  .page12-inner > p {
+    font-size: 6vw; /* Adjust font size for smaller screens */
+  }
 }
 
 #page13 {
