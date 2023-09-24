@@ -68,10 +68,9 @@ body {
   #right-nav > button {
     font-size: 3.5vw;
   }
-  #page1 > nav > img {
-    margin-left: -7.2rem;
-    margin-top: -12vw;
-    width: 9rem;
+  #page1 > nav > a > img {
+    margin-left: -2rem;
+    width: 4rem;
   }
 }
 .bottom-page1 {
